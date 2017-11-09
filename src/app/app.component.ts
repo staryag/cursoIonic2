@@ -6,5 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'app';
+  // tslint:disable-next-line:no-inferrable-types
+  nombre: string = 'Marcos López';
 }
